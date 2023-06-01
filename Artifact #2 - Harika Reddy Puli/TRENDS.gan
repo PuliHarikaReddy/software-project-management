@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="TRENDS Gantt Chart" company="Broadway Analytics" webLink="http://" view-date="2023-03-25" view-index="0" gantt-divider-location="623" resource-divider-location="592" version="3.2.3246" locale="en_US">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Name" width="139" order="0"/>
+        <field id="tpd4" name="Begin date" width="51" order="1"/>
+        <field id="tpd5" name="End date" width="49" order="2"/>
+        <field id="tpd6" name="Duration" width="41" order="3"/>
+        <field id="tpd9" name="Predecessors" width="66" order="4"/>
+        <field id="tpd1" name="Priority" width="52" order="5"/>
+        <field id="tpd13" name="Resources" width="164" order="6"/>
+        <field id="tpd12" name="Cost" width="46" order="7"/>
+        <option id="filter.completedTasks" value="false"/>
+        <timeline>
+            <![CDATA[1,21,22,8,29,27,3,23,17,37,24,25,9,14,4,11,34,26,5,12,6,18,31,36,7,13,16,2,28]]>
+        </timeline>
+        <option id="color.recent">
+            <![CDATA[#009999 #cc0033 #006666 #990066 #000099 #99ff99 #993300 #9933ff #ffcc66 #ff6666]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="6" name="Total cost" width="78" order="0"/>
+        <field id="7" name="Total load" width="75" order="1"/>
+        <field id="0" name="Name" width="175" order="2"/>
+        <field id="1" name="Default role" width="260" order="3"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="" month="1" date="1" type="HOLIDAY">
+            <![CDATA[New Years Day]]>
+        </date>
+        <date year="" month="2" date="2" type="NEUTRAL">
+            <![CDATA[Groundhog Day]]>
+        </date>
+        <date year="" month="7" date="4" type="HOLIDAY">
+            <![CDATA[Independence Day]]>
+        </date>
+        <date year="" month="11" date="11" type="HOLIDAY">
+            <![CDATA[Veterans Day]]>
+        </date>
+        <date year="" month="12" date="25" type="HOLIDAY">
+            <![CDATA[Christmas Day]]>
+        </date>
+        <date year="2022" month="1" date="17" type="HOLIDAY">
+            <![CDATA[Martin Luther King Day]]>
+        </date>
+        <date year="2022" month="2" date="21" type="HOLIDAY">
+            <![CDATA[Presidents' Day]]>
+        </date>
+        <date year="2022" month="5" date="8" type="NEUTRAL">
+            <![CDATA[Mother's Day]]>
+        </date>
+        <date year="2022" month="5" date="30" type="HOLIDAY">
+            <![CDATA[Memorial Day]]>
+        </date>
+        <date year="2022" month="6" date="19" type="HOLIDAY">
+            <![CDATA[Juneteenth]]>
+        </date>
+        <date year="2022" month="6" date="20" type="HOLIDAY">
+            <![CDATA[Juneteenth (in lieu)]]>
+        </date>
+        <date year="2022" month="9" date="5" type="HOLIDAY">
+            <![CDATA[Labor Day]]>
+        </date>
+        <date year="2022" month="10" date="10" type="HOLIDAY">
+            <![CDATA[Columbus Day]]>
+        </date>
+        <date year="2022" month="11" date="24" type="HOLIDAY">
+            <![CDATA[Thanksgiving]]>
+        </date>
+        <date year="2022" month="11" date="25" type="NEUTRAL">
+            <![CDATA[Day after Thanksgiving]]>
+        </date>
+        <date year="2022" month="12" date="26" type="HOLIDAY">
+            <![CDATA[Christmas Day (in lieu)]]>
+        </date>
+        <date year="2008" month="1" date="21" type="HOLIDAY">
+            <![CDATA[Martin Luther King Day]]>
+        </date>
+        <date year="2008" month="2" date="18" type="HOLIDAY">
+            <![CDATA[Presidents Day]]>
+        </date>
+        <date year="2008" month="5" date="26" type="HOLIDAY">
+            <![CDATA[Memorial Day]]>
+        </date>
+        <date year="2008" month="9" date="1" type="HOLIDAY">
+            <![CDATA[Labor Day]]>
+        </date>
+        <date year="2008" month="10" date="13" type="HOLIDAY">
+            <![CDATA[Columbus Day]]>
+        </date>
+        <date year="2008" month="11" date="27" type="HOLIDAY">
+            <![CDATA[Thanksgiving]]>
+        </date>
+        <date year="2008" month="11" date="28" type="NEUTRAL">
+            <![CDATA[Day after Thanksgiving]]>
+        </date>
+        <date year="2009" month="1" date="19" type="HOLIDAY">
+            <![CDATA[Martin Luther King Day]]>
+        </date>
+        <date year="2009" month="2" date="16" type="HOLIDAY">
+            <![CDATA[Presidents Day]]>
+        </date>
+        <date year="2009" month="5" date="25" type="HOLIDAY">
+            <![CDATA[Memorial Day]]>
+        </date>
+        <date year="2009" month="7" date="3" type="HOLIDAY">
+            <![CDATA[Independence Day]]>
+        </date>
+        <date year="2009" month="9" date="7" type="HOLIDAY">
+            <![CDATA[Labor Day]]>
+        </date>
+        <date year="2009" month="10" date="12" type="HOLIDAY">
+            <![CDATA[Columbus Day]]>
+        </date>
+        <date year="2009" month="11" date="26" type="HOLIDAY">
+            <![CDATA[Thanksgiving]]>
+        </date>
+        <date year="2009" month="11" date="27" type="NEUTRAL">
+            <![CDATA[Day after Thanksgiving]]>
+        </date>
+        <date year="2010" month="1" date="18" type="HOLIDAY">
+            <![CDATA[Martin Luther King Day]]>
+        </date>
+        <date year="2010" month="2" date="15" type="HOLIDAY">
+            <![CDATA[Presidents Day]]>
+        </date>
+        <date year="2010" month="5" date="9" type="NEUTRAL">
+            <![CDATA[Mothers Day]]>
+        </date>
+        <date year="2010" month="5" date="31" type="HOLIDAY">
+            <![CDATA[Memorial Day]]>
+        </date>
+        <date year="2010" month="7" date="5" type="HOLIDAY">
+            <![CDATA[Independence Day]]>
+        </date>
+        <date year="2010" month="9" date="6" type="HOLIDAY">
+            <![CDATA[Labor Day]]>
+        </date>
+        <date year="2010" month="10" date="11" type="HOLIDAY">
+            <![CDATA[Columbus Day]]>
+        </date>
+        <date year="2010" month="11" date="25" type="HOLIDAY">
+            <![CDATA[Thanksgiving]]>
+        </date>
+        <date year="2010" month="11" date="26" type="NEUTRAL">
+            <![CDATA[Day after Thanksgiving]]>
+        </date>
+        <date year="2010" month="12" date="24" type="HOLIDAY">
+            <![CDATA[Christmas Day (in lieu)]]>
+        </date>
+        <date year="2010" month="12" date="31" type="HOLIDAY">
+            <![CDATA[New Years Day (in lieu)]]>
+        </date>
+        <date year="2011" month="1" date="17" type="HOLIDAY">
+            <![CDATA[Martin Luther King Day]]>
+        </date>
+        <date year="2011" month="2" date="21" type="HOLIDAY">
+            <![CDATA[Presidents Day]]>
+        </date>
+        <date year="2011" month="4" date="15" type="NEUTRAL">
+            <![CDATA[Emancipation Day (Regional)]]>
+        </date>
+        <date year="2011" month="5" date="8" type="NEUTRAL">
+            <![CDATA[Mothers Day]]>
+        </date>
+        <date year="2011" month="5" date="30" type="HOLIDAY">
+            <![CDATA[Memorial Day]]>
+        </date>
+        <date year="2011" month="6" date="19" type="NEUTRAL">
+            <![CDATA[Fathers Day]]>
+        </date>
+        <date year="2011" month="9" date="5" type="HOLIDAY">
+            <![CDATA[Labor Day]]>
+        </date>
+        <date year="2011" month="10" date="10" type="HOLIDAY">
+            <![CDATA[Columbus Day]]>
+        </date>
+        <date year="2011" month="11" date="24" type="HOLIDAY">
+            <![CDATA[Thanksgiving]]>
+        </date>
+        <date year="2011" month="11" date="25" type="NEUTRAL">
+            <![CDATA[Day after Thanksgiving]]>
+        </date>
+        <date year="2011" month="12" date="26" type="HOLIDAY">
+            <![CDATA[Christmas Holiday]]>
+        </date>
+        <date year="2012" month="1" date="2" type="HOLIDAY">
+            <![CDATA[New Years Day (in lieu)]]>
+        </date>
+        <date year="2012" month="1" date="16" type="HOLIDAY">
+            <![CDATA[Martin Luther King Day]]>
+        </date>
+        <date year="2012" month="2" date="20" type="HOLIDAY">
+            <![CDATA[Presidents Day]]>
+        </date>
+        <date year="2012" month="4" date="16" type="NEUTRAL">
+            <![CDATA[Emancipation Day (Regional)]]>
+        </date>
+        <date year="2012" month="5" date="13" type="NEUTRAL">
+            <![CDATA[Mothers Day]]>
+        </date>
+        <date year="2012" month="5" date="28" type="HOLIDAY">
+            <![CDATA[Memorial Day]]>
+        </date>
+        <date year="2012" month="6" date="17" type="NEUTRAL">
+            <![CDATA[Fathers Day]]>
+        </date>
+        <date year="2012" month="9" date="3" type="HOLIDAY">
+            <![CDATA[Labor Day]]>
+        </date>
+        <date year="2012" month="10" date="8" type="HOLIDAY">
+            <![CDATA[Columbus Day]]>
+        </date>
+        <date year="2012" month="11" date="12" type="HOLIDAY">
+            <![CDATA[Veterans Day]]>
+        </date>
+        <date year="2012" month="11" date="22" type="HOLIDAY">
+            <![CDATA[Thanksgiving]]>
+        </date>
+        <date year="2012" month="11" date="23" type="NEUTRAL">
+            <![CDATA[Day after Thanksgiving]]>
+        </date>
+        <date year="2013" month="1" date="21" type="HOLIDAY">
+            <![CDATA[Martin Luther King Day]]>
+        </date>
+        <date year="2013" month="2" date="18" type="HOLIDAY">
+            <![CDATA[Presidents Day]]>
+        </date>
+        <date year="2013" month="4" date="16" type="NEUTRAL">
+            <![CDATA[Emancipation Day (Regional)]]>
+        </date>
+        <date year="2013" month="5" date="12" type="NEUTRAL">
+            <![CDATA[Mothers Day]]>
+        </date>
+        <date year="2013" month="5" date="27" type="HOLIDAY">
+            <![CDATA[Memorial Day]]>
+        </date>
+        <date year="2013" month="6" date="16" type="NEUTRAL">
+            <![CDATA[Fathers Day]]>
+        </date>
+        <date year="2013" month="9" date="2" type="HOLIDAY">
+            <![CDATA[Labor Day]]>
+        </date>
+        <date year="2013" month="10" date="14" type="HOLIDAY">
+            <![CDATA[Columbus Day]]>
+        </date>
+        <date year="2013" month="11" date="28" type="HOLIDAY">
+            <![CDATA[Thanksgiving]]>
+        </date>
+        <date year="2013" month="11" date="29" type="NEUTRAL">
+            <![CDATA[Day after Thanksgiving]]>
+        </date>
+        <date year="2014" month="1" date="20" type="HOLIDAY">
+            <![CDATA[Martin Luther King Day]]>
+        </date>
+        <date year="2014" month="2" date="17" type="HOLIDAY">
+            <![CDATA[Presidents Day]]>
+        </date>
+        <date year="2014" month="4" date="16" type="NEUTRAL">
+            <![CDATA[Emancipation Day (Regional)]]>
+        </date>
+        <date year="2014" month="5" date="11" type="NEUTRAL">
+            <![CDATA[Mothers Day]]>
+        </date>
+        <date year="2014" month="5" date="26" type="HOLIDAY">
+            <![CDATA[Memorial Day]]>
+        </date>
+        <date year="2014" month="6" date="15" type="NEUTRAL">
+            <![CDATA[Fathers Day]]>
+        </date>
+        <date year="2014" month="9" date="1" type="HOLIDAY">
+            <![CDATA[Labor Day]]>
+        </date>
+        <date year="2014" month="10" date="13" type="HOLIDAY">
+            <![CDATA[Columbus Day]]>
+        </date>
+        <date year="2014" month="11" date="27" type="HOLIDAY">
+            <![CDATA[Thanksgiving]]>
+        </date>
+        <date year="2014" month="11" date="28" type="NEUTRAL">
+            <![CDATA[Day after Thanksgiving]]>
+        </date>
+        <date year="2014" month="12" date="26" type="HOLIDAY">
+            <![CDATA[Day after Christmas]]>
+        </date>
+        <date year="2015" month="1" date="19" type="HOLIDAY">
+            <![CDATA[Martin Luther King Day]]>
+        </date>
+        <date year="2015" month="2" date="16" type="HOLIDAY">
+            <![CDATA[Presidents Day]]>
+        </date>
+        <date year="2015" month="4" date="16" type="NEUTRAL">
+            <![CDATA[Emancipation Day (Regional)]]>
+        </date>
+        <date year="2015" month="5" date="10" type="NEUTRAL">
+            <![CDATA[Mothers Day]]>
+        </date>
+        <date year="2015" month="5" date="25" type="HOLIDAY">
+            <![CDATA[Memorial Day]]>
+        </date>
+        <date year="2015" month="6" date="21" type="NEUTRAL">
+            <![CDATA[Fathers Day]]>
+        </date>
+        <date year="2015" month="7" date="3" type="HOLIDAY">
+            <![CDATA[Independence Day (observed)]]>
+        </date>
+        <date year="2015" month="9" date="7" type="HOLIDAY">
+            <![CDATA[Labor Day]]>
+        </date>
+        <date year="2015" month="10" date="12" type="HOLIDAY">
+            <![CDATA[Columbus Day]]>
+        </date>
+        <date year="2015" month="11" date="26" type="HOLIDAY">
+            <![CDATA[Thanksgiving]]>
+        </date>
+        <date year="2015" month="11" date="27" type="NEUTRAL">
+            <![CDATA[Day after Thanksgiving]]>
+        </date>
+        <date year="2016" month="1" date="18" type="HOLIDAY">
+            <![CDATA[Martin Luther King Day]]>
+        </date>
+        <date year="2016" month="2" date="15" type="HOLIDAY">
+            <![CDATA[Presidents Day]]>
+        </date>
+        <date year="2016" month="4" date="15" type="NEUTRAL">
+            <![CDATA[Emancipation Day (Regional)]]>
+        </date>
+        <date year="2016" month="5" date="8" type="NEUTRAL">
+            <![CDATA[Mothers Day]]>
+        </date>
+        <date year="2016" month="5" date="30" type="HOLIDAY">
+            <![CDATA[Memorial Day]]>
+        </date>
+        <date year="2016" month="6" date="19" type="NEUTRAL">
+            <![CDATA[Fathers Day]]>
+        </date>
+        <date year="2016" month="9" date="5" type="HOLIDAY">
+            <![CDATA[Labor Day]]>
+        </date>
+        <date year="2016" month="10" date="10" type="HOLIDAY">
+            <![CDATA[Columbus Day]]>
+        </date>
+        <date year="2016" month="11" date="24" type="HOLIDAY">
+            <![CDATA[Thanksgiving]]>
+        </date>
+        <date year="2016" month="11" date="25" type="NEUTRAL">
+            <![CDATA[Day after Thanksgiving]]>
+        </date>
+        <date year="2016" month="12" date="26" type="HOLIDAY">
+            <![CDATA[Christmas Day (in lieu)]]>
+        </date>
+        <date year="2017" month="1" date="2" type="HOLIDAY">
+            <![CDATA[New Years Day (in lieu)]]>
+        </date>
+        <date year="2017" month="1" date="16" type="HOLIDAY">
+            <![CDATA[Martin Luther King Day]]>
+        </date>
+        <date year="2017" month="2" date="20" type="HOLIDAY">
+            <![CDATA[Presidents' Day]]>
+        </date>
+        <date year="2017" month="5" date="14" type="NEUTRAL">
+            <![CDATA[Mother's Day]]>
+        </date>
+        <date year="2017" month="5" date="29" type="HOLIDAY">
+            <![CDATA[Memorial Day]]>
+        </date>
+        <date year="2017" month="6" date="18" type="NEUTRAL">
+            <![CDATA[Father's Day]]>
+        </date>
+        <date year="2017" month="9" date="4" type="HOLIDAY">
+            <![CDATA[Labor Day]]>
+        </date>
+        <date year="2017" month="10" date="9" type="HOLIDAY">
+            <![CDATA[Columbus Day]]>
+        </date>
+        <date year="2017" month="11" date="10" type="HOLIDAY">
+            <![CDATA[Veterans Day (in lieu)]]>
+        </date>
+        <date year="2017" month="11" date="23" type="HOLIDAY">
+            <![CDATA[Thanksgiving]]>
+        </date>
+        <date year="2017" month="11" date="24" type="NEUTRAL">
+            <![CDATA[Day after Thanksgiving]]>
+        </date>
+        <date year="2018" month="1" date="15" type="HOLIDAY">
+            <![CDATA[Martin Luther King Day]]>
+        </date>
+        <date year="2018" month="2" date="19" type="HOLIDAY">
+            <![CDATA[Presidents' Day]]>
+        </date>
+        <date year="2018" month="5" date="13" type="NEUTRAL">
+            <![CDATA[Mother's Day]]>
+        </date>
+        <date year="2018" month="5" date="28" type="HOLIDAY">
+            <![CDATA[Memorial Day]]>
+        </date>
+        <date year="2018" month="6" date="17" type="NEUTRAL">
+            <![CDATA[Father's Day]]>
+        </date>
+        <date year="2018" month="9" date="3" type="HOLIDAY">
+            <![CDATA[Labor Day]]>
+        </date>
+        <date year="2018" month="10" date="8" type="HOLIDAY">
+            <![CDATA[Columbus Day]]>
+        </date>
+        <date year="2018" month="11" date="22" type="HOLIDAY">
+            <![CDATA[Thanksgiving]]>
+        </date>
+        <date year="2018" month="11" date="23" type="NEUTRAL">
+            <![CDATA[Day after Thanksgiving]]>
+        </date>
+        <date year="2019" month="1" date="21" type="HOLIDAY">
+            <![CDATA[Martin Luther King Day]]>
+        </date>
+        <date year="2019" month="2" date="18" type="HOLIDAY">
+            <![CDATA[Presidents' Day]]>
+        </date>
+        <date year="2019" month="5" date="12" type="NEUTRAL">
+            <![CDATA[Mother's Day]]>
+        </date>
+        <date year="2019" month="5" date="27" type="HOLIDAY">
+            <![CDATA[Memorial Day]]>
+        </date>
+        <date year="2019" month="6" date="16" type="NEUTRAL">
+            <![CDATA[Father's Day]]>
+        </date>
+        <date year="2019" month="9" date="2" type="HOLIDAY">
+            <![CDATA[Labor Day]]>
+        </date>
+        <date year="2019" month="10" date="14" type="HOLIDAY">
+            <![CDATA[Columbus Day]]>
+        </date>
+        <date year="2019" month="11" date="28" type="HOLIDAY">
+            <![CDATA[Thanksgiving]]>
+        </date>
+        <date year="2019" month="11" date="29" type="NEUTRAL">
+            <![CDATA[Day after Thanksgiving]]>
+        </date>
+        <date year="2020" month="1" date="20" type="HOLIDAY">
+            <![CDATA[Martin Luther King Day]]>
+        </date>
+        <date year="2020" month="2" date="17" type="HOLIDAY">
+            <![CDATA[Presidents' Day]]>
+        </date>
+        <date year="2020" month="5" date="10" type="NEUTRAL">
+            <![CDATA[Mother's Day]]>
+        </date>
+        <date year="2020" month="5" date="25" type="HOLIDAY">
+            <![CDATA[Memorial Day]]>
+        </date>
+        <date year="2020" month="6" date="21" type="NEUTRAL">
+            <![CDATA[Father's Day]]>
+        </date>
+        <date year="2020" month="7" date="3" type="HOLIDAY">
+            <![CDATA[Independence Day (in lieu)]]>
+        </date>
+        <date year="2020" month="9" date="7" type="HOLIDAY">
+            <![CDATA[Labor Day]]>
+        </date>
+        <date year="2020" month="10" date="12" type="HOLIDAY">
+            <![CDATA[Columbus Day]]>
+        </date>
+        <date year="2020" month="11" date="26" type="HOLIDAY">
+            <![CDATA[Thanksgiving]]>
+        </date>
+        <date year="2020" month="11" date="27" type="NEUTRAL">
+            <![CDATA[Day after Thanksgiving]]>
+        </date>
+        <date year="2021" month="1" date="18" type="HOLIDAY">
+            <![CDATA[Martin Luther King Day]]>
+        </date>
+        <date year="2021" month="2" date="15" type="HOLIDAY">
+            <![CDATA[Presidents' Day]]>
+        </date>
+        <date year="2021" month="5" date="9" type="NEUTRAL">
+            <![CDATA[Mother's Day]]>
+        </date>
+        <date year="2021" month="5" date="31" type="HOLIDAY">
+            <![CDATA[Memorial Day]]>
+        </date>
+        <date year="2021" month="6" date="20" type="NEUTRAL">
+            <![CDATA[Father's Day]]>
+        </date>
+        <date year="2021" month="7" date="5" type="HOLIDAY">
+            <![CDATA[Independence Day (in lieu)]]>
+        </date>
+        <date year="2021" month="9" date="6" type="HOLIDAY">
+            <![CDATA[Labor Day]]>
+        </date>
+        <date year="2021" month="10" date="11" type="HOLIDAY">
+            <![CDATA[Columbus Day]]>
+        </date>
+        <date year="2021" month="11" date="25" type="HOLIDAY">
+            <![CDATA[Thanksgiving]]>
+        </date>
+        <date year="2021" month="11" date="26" type="NEUTRAL">
+            <![CDATA[Day after Thanksgiving]]>
+        </date>
+        <date year="2021" month="12" date="24" type="HOLIDAY">
+            <![CDATA[Christmas Day (in lieu)]]>
+        </date>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="1" name="Project Management" color="#8cb6ce" meeting="false" start="2022-10-03" duration="15" complete="0" thirdDate="2022-10-06" thirdDate-constraint="0" priority="4" expand="true">
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+            <task id="2" name="Define Scope &amp; Purpose" color="#ccffff" meeting="false" start="2022-10-03" duration="3" complete="0" thirdDate="2022-10-06" thirdDate-constraint="0" priority="4" expand="true">
+                <depend id="3" type="2" difference="0" hardness="Strong"/>
+                <depend id="4" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="3" name="Project Management Planning" color="#99ccff" meeting="false" start="2022-10-06" duration="8" complete="0" thirdDate="2022-10-06" thirdDate-constraint="0" priority="2" expand="true">
+                <depend id="5" type="1" difference="0" hardness="Strong"/>
+                <depend id="6" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="4" name="Project Schedule/Timeline Plan" color="#9999ff" meeting="false" start="2022-10-06" duration="4" complete="0" thirdDate="2022-10-03" thirdDate-constraint="0" expand="true">
+                <depend id="6" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="5" name="Risk Management Plan" color="#ff9999" meeting="false" start="2022-10-06" duration="5" complete="0" thirdDate="2022-10-03" thirdDate-constraint="0" priority="4" expand="true"/>
+            <task id="6" name="Client Contracting" color="#0099ff" meeting="false" start="2022-10-19" duration="4" complete="0" thirdDate="2022-10-03" thirdDate-constraint="0" expand="true">
+                <depend id="8" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="7" name="Planning" color="#ff9966" meeting="false" start="2022-10-25" duration="15" complete="0" thirdDate="2022-10-03" thirdDate-constraint="0" priority="4" expand="true">
+            <depend id="11" type="2" difference="0" hardness="Strong"/>
+            <task id="8" name="Project Approval &amp; Initiation" color="#0099cc" meeting="false" start="2022-10-25" duration="4" complete="0" thirdDate="2022-10-03" thirdDate-constraint="0" expand="true">
+                <depend id="9" type="2" difference="0" hardness="Strong"/>
+                <depend id="34" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="34" name="Milestone 1" color="#000099" meeting="true" start="2022-10-31" duration="0" complete="0" thirdDate="2023-03-02" thirdDate-constraint="0" expand="true"/>
+            <task id="9" name="Project Activities/User Stories Planning" color="#cc9900" meeting="false" start="2022-10-31" duration="7" complete="0" thirdDate="2022-10-25" thirdDate-constraint="0" priority="2" expand="true">
+                <depend id="10" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="10" name="Resourcing Analysis" color="#00ffcc" meeting="false" start="2022-11-09" duration="4" complete="0" thirdDate="2022-10-25" thirdDate-constraint="0" priority="2" expand="true">
+                <depend id="12" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="11" name="Requirement Analysis" color="#3366ff" meeting="false" start="2022-11-16" duration="20" complete="0" thirdDate="2022-10-25" thirdDate-constraint="0" priority="4" expand="true">
+            <depend id="16" type="2" difference="0" hardness="Strong"/>
+            <task id="12" name="Stakeholder Analysis" color="#ff9999" meeting="false" start="2022-11-16" duration="5" complete="0" thirdDate="2022-10-24" thirdDate-constraint="0" priority="4" expand="true">
+                <depend id="13" type="3" difference="0" hardness="Strong"/>
+            </task>
+            <task id="13" name="Stakeholders &amp; Client Meetings" color="#cc99ff" meeting="false" start="2022-11-16" duration="6" complete="0" thirdDate="2022-11-16" thirdDate-constraint="0" priority="4" expand="true">
+                <depend id="14" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="14" name="Requirements Gathering" color="#3399ff" meeting="false" start="2022-11-25" duration="10" complete="0" thirdDate="2022-11-16" thirdDate-constraint="0" priority="4" expand="true">
+                <depend id="15" type="2" difference="0" hardness="Strong"/>
+                <depend id="35" type="3" difference="0" hardness="Strong"/>
+            </task>
+            <task id="35" name="Milestone 2" color="#cc0033" meeting="true" start="2022-12-09" duration="0" complete="0" thirdDate="2022-11-16" thirdDate-constraint="0" priority="4" expand="true"/>
+            <task id="15" name="Training Resources" color="#ccff00" meeting="false" start="2022-12-09" duration="4" complete="0" thirdDate="2022-11-17" thirdDate-constraint="0" expand="true">
+                <depend id="17" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="16" name="Design" color="#cc66ff" meeting="false" start="2022-12-15" duration="22" complete="0" thirdDate="2022-11-16" thirdDate-constraint="0" priority="4" expand="true">
+            <depend id="20" type="2" difference="0" hardness="Strong"/>
+            <task id="17" name="Project Workflow &amp; Architecture Design" color="#ffcc00" meeting="false" start="2022-12-15" duration="7" complete="0" thirdDate="2022-11-15" thirdDate-constraint="0" priority="2" expand="true">
+                <depend id="18" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="18" name="Technology stack" color="#ff6699" meeting="false" start="2022-12-27" duration="5" complete="0" thirdDate="2022-12-15" thirdDate-constraint="0" expand="true">
+                <depend id="19" type="1" difference="0" hardness="Strong"/>
+            </task>
+            <task id="19" name="Prototype Design" color="#009999" meeting="false" start="2022-12-27" duration="15" complete="0" thirdDate="2022-12-15" thirdDate-constraint="0" expand="true">
+                <depend id="21" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="20" name="Development" color="#66ff66" meeting="false" start="2023-01-17" duration="60" complete="0" thirdDate="2022-12-21" thirdDate-constraint="0" priority="2" expand="true">
+            <depend id="26" type="2" difference="0" hardness="Strong"/>
+            <task id="21" name="Back-end Development" color="#6699ff" meeting="false" start="2023-01-17" duration="30" complete="0" thirdDate="2022-12-28" thirdDate-constraint="0" priority="4" expand="true">
+                <depend id="22" type="1" difference="0" hardness="Strong"/>
+                <depend id="24" type="2" difference="0" hardness="Strong"/>
+                <depend id="25" type="1" difference="0" hardness="Strong"/>
+            </task>
+            <task id="22" name="Front-end Development" color="#ff9900" meeting="false" start="2023-01-17" duration="30" complete="0" thirdDate="2023-01-17" thirdDate-constraint="0" priority="2" expand="true">
+                <depend id="24" type="2" difference="0" hardness="Strong"/>
+                <depend id="25" type="1" difference="0" hardness="Strong"/>
+            </task>
+            <task id="23" name="Third-Party Licensing" color="#ff0066" meeting="false" start="2023-02-28" duration="10" complete="0" thirdDate="2023-01-17" thirdDate-constraint="0" expand="true">
+                <depend id="24" type="2" difference="0" hardness="Strong"/>
+                <depend id="25" type="3" difference="0" hardness="Strong"/>
+            </task>
+            <task id="24" name="Integration" color="#990099" meeting="false" start="2023-03-14" duration="15" complete="0" thirdDate="2023-02-06" thirdDate-constraint="0" priority="2" expand="true">
+                <depend id="25" type="3" difference="0" hardness="Strong"/>
+                <depend id="36" type="3" difference="0" hardness="Strong"/>
+            </task>
+            <task id="36" name="Milestone 3" color="#990066" meeting="true" start="2023-04-04" duration="0" complete="0" thirdDate="2023-01-17" thirdDate-constraint="0" priority="2" expand="true"/>
+            <task id="25" name="Documentation" color="#ffcccc" meeting="false" start="2023-01-17" duration="60" complete="0" thirdDate="2023-02-23" thirdDate-constraint="0" priority="2" expand="true">
+                <depend id="27" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="26" name="Testing" color="#ff6666" meeting="false" start="2023-04-11" duration="20" complete="0" thirdDate="2023-03-24" thirdDate-constraint="0" priority="4" expand="true">
+            <depend id="30" type="2" difference="0" hardness="Strong"/>
+            <task id="27" name="Test Planning" color="#8cb6ce" meeting="false" start="2023-04-11" duration="3" complete="0" thirdDate="2023-04-11" thirdDate-constraint="0" priority="2" expand="true">
+                <depend id="28" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="28" name="Test Data Gathering" color="#ffcc66" meeting="false" start="2023-04-14" duration="6" complete="0" thirdDate="2023-04-11" thirdDate-constraint="0" priority="2" expand="true">
+                <depend id="29" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="29" name="Acceptance Testing" color="#9933ff" meeting="false" start="2023-04-24" duration="11" complete="0" thirdDate="2023-04-11" thirdDate-constraint="0" priority="4" expand="true">
+                <depend id="37" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="37" name="Milestone 4" color="#009999" meeting="true" start="2023-05-09" duration="0" complete="0" thirdDate="2023-04-11" thirdDate-constraint="0" priority="2" expand="true"/>
+        </task>
+        <task id="30" name="Deployment" color="#993300" meeting="false" start="2023-05-09" duration="10" complete="0" thirdDate="2023-04-19" thirdDate-constraint="0" expand="true">
+            <depend id="31" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="31" name="Maintenance" color="#99ff99" meeting="false" start="2023-05-23" duration="10" complete="0" thirdDate="2023-04-20" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Harika Reddy " function="Default:1" contacts="" phone="">
+            <rate name="standard" value="60"/>
+        </resource>
+        <resource id="1" name="John Snow" function="2" contacts="" phone="">
+            <rate name="standard" value="50"/>
+        </resource>
+        <resource id="2" name="Bob Evans" function="3" contacts="" phone="">
+            <rate name="standard" value="50"/>
+        </resource>
+        <resource id="3" name="Victoria Durand" function="4" contacts="" phone="">
+            <rate name="standard" value="45"/>
+        </resource>
+        <resource id="4" name="Nicole Duhamel" function="5" contacts="" phone="">
+            <rate name="standard" value="40"/>
+        </resource>
+    </resources>
+    <allocations>
+        <allocation task-id="1" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="10" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="20" resource-id="0" function="Default:1" responsible="false" load="60.0"/>
+        <allocation task-id="9" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="13" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="12" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="30" resource-id="0" function="Default:1" responsible="false" load="40.0"/>
+        <allocation task-id="17" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="7" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="23" resource-id="0" function="Default:1" responsible="false" load="40.0"/>
+        <allocation task-id="6" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="3" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="27" resource-id="0" function="Default:1" responsible="false" load="75.0"/>
+        <allocation task-id="19" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="25" resource-id="0" function="Default:1" responsible="false" load="80.0"/>
+        <allocation task-id="24" resource-id="0" function="Default:1" responsible="false" load="50.0"/>
+        <allocation task-id="26" resource-id="0" function="Default:1" responsible="false" load="50.0"/>
+        <allocation task-id="18" resource-id="0" function="Default:1" responsible="false" load="45.0"/>
+        <allocation task-id="8" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="16" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="14" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="34" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="35" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="36" resource-id="0" function="Default:1" responsible="false" load="65.0"/>
+        <allocation task-id="37" resource-id="0" function="Default:1" responsible="true" load="75.0"/>
+        <allocation task-id="10" resource-id="1" function="2" responsible="false" load="50.0"/>
+        <allocation task-id="20" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="1" function="2" responsible="false" load="80.0"/>
+        <allocation task-id="13" resource-id="1" function="2" responsible="false" load="60.0"/>
+        <allocation task-id="5" resource-id="1" function="2" responsible="false" load="75.0"/>
+        <allocation task-id="15" resource-id="1" function="2" responsible="false" load="50.0"/>
+        <allocation task-id="4" resource-id="1" function="2" responsible="false" load="65.0"/>
+        <allocation task-id="12" resource-id="1" function="2" responsible="false" load="70.0"/>
+        <allocation task-id="30" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="17" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="29" resource-id="1" function="2" responsible="false" load="40.0"/>
+        <allocation task-id="23" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="11" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="3" resource-id="1" function="2" responsible="false" load="70.0"/>
+        <allocation task-id="22" resource-id="1" function="2" responsible="false" load="50.0"/>
+        <allocation task-id="27" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="19" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="24" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="26" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="21" resource-id="1" function="2" responsible="false" load="45.0"/>
+        <allocation task-id="18" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="8" resource-id="1" function="2" responsible="false" load="60.0"/>
+        <allocation task-id="16" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="14" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="31" resource-id="1" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="34" resource-id="1" function="2" responsible="false" load="70.0"/>
+        <allocation task-id="35" resource-id="1" function="2" responsible="true" load="90.0"/>
+        <allocation task-id="36" resource-id="1" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="37" resource-id="1" function="2" responsible="true" load="95.0"/>
+        <allocation task-id="20" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="22" resource-id="2" function="3" responsible="false" load="90.0"/>
+        <allocation task-id="9" resource-id="2" function="3" responsible="false" load="60.0"/>
+        <allocation task-id="27" resource-id="2" function="3" responsible="false" load="79.0"/>
+        <allocation task-id="5" resource-id="2" function="3" responsible="false" load="50.0"/>
+        <allocation task-id="19" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="15" resource-id="2" function="3" responsible="false" load="80.0"/>
+        <allocation task-id="25" resource-id="2" function="3" responsible="false" load="35.0"/>
+        <allocation task-id="28" resource-id="2" function="3" responsible="false" load="40.0"/>
+        <allocation task-id="24" resource-id="2" function="3" responsible="false" load="80.0"/>
+        <allocation task-id="26" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="21" resource-id="2" function="3" responsible="false" load="30.0"/>
+        <allocation task-id="4" resource-id="2" function="3" responsible="false" load="50.0"/>
+        <allocation task-id="18" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="30" resource-id="2" function="3" responsible="false" load="75.0"/>
+        <allocation task-id="17" resource-id="2" function="3" responsible="false" load="90.0"/>
+        <allocation task-id="29" resource-id="2" function="3" responsible="false" load="50.0"/>
+        <allocation task-id="14" resource-id="2" function="3" responsible="false" load="70.0"/>
+        <allocation task-id="23" resource-id="2" function="3" responsible="false" load="65.0"/>
+        <allocation task-id="31" resource-id="2" function="3" responsible="false" load="80.0"/>
+        <allocation task-id="34" resource-id="2" function="3" responsible="false" load="60.0"/>
+        <allocation task-id="35" resource-id="2" function="3" responsible="false" load="75.0"/>
+        <allocation task-id="36" resource-id="2" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="37" resource-id="2" function="3" responsible="false" load="80.0"/>
+        <allocation task-id="22" resource-id="3" function="4" responsible="false" load="40.0"/>
+        <allocation task-id="9" resource-id="3" function="4" responsible="false" load="35.0"/>
+        <allocation task-id="30" resource-id="3" function="4" responsible="false" load="45.0"/>
+        <allocation task-id="15" resource-id="3" function="4" responsible="false" load="50.0"/>
+        <allocation task-id="25" resource-id="3" function="4" responsible="false" load="60.0"/>
+        <allocation task-id="28" resource-id="3" function="4" responsible="false" load="70.0"/>
+        <allocation task-id="24" resource-id="3" function="4" responsible="false" load="32.0"/>
+        <allocation task-id="29" resource-id="3" function="4" responsible="false" load="56.0"/>
+        <allocation task-id="11" resource-id="3" function="4" responsible="false" load="45.0"/>
+        <allocation task-id="26" resource-id="3" function="4" responsible="false" load="60.0"/>
+        <allocation task-id="21" resource-id="3" function="4" responsible="false" load="75.0"/>
+        <allocation task-id="31" resource-id="3" function="4" responsible="false" load="35.0"/>
+        <allocation task-id="35" resource-id="3" function="4" responsible="false" load="65.0"/>
+        <allocation task-id="36" resource-id="3" function="4" responsible="false" load="85.0"/>
+        <allocation task-id="37" resource-id="3" function="4" responsible="false" load="70.0"/>
+        <allocation task-id="12" resource-id="4" function="5" responsible="false" load="55.0"/>
+        <allocation task-id="10" resource-id="4" function="5" responsible="false" load="45.0"/>
+        <allocation task-id="27" resource-id="4" function="5" responsible="false" load="30.0"/>
+        <allocation task-id="5" resource-id="4" function="5" responsible="false" load="35.0"/>
+        <allocation task-id="7" resource-id="4" function="5" responsible="false" load="30.0"/>
+        <allocation task-id="25" resource-id="4" function="5" responsible="false" load="65.0"/>
+        <allocation task-id="29" resource-id="4" function="5" responsible="false" load="32.0"/>
+        <allocation task-id="11" resource-id="4" function="5" responsible="false" load="50.0"/>
+        <allocation task-id="31" resource-id="4" function="5" responsible="false" load="45.0"/>
+        <allocation task-id="35" resource-id="4" function="5" responsible="false" load="30.0"/>
+        <allocation task-id="37" resource-id="4" function="5" responsible="false" load="45.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+    <roles>
+        <role id="1" name="Project Manager"/>
+        <role id="2" name="Team Lead + Senior Data Engineer"/>
+        <role id="3" name="Senior Software Developer"/>
+        <role id="4" name="Software Developer"/>
+        <role id="5" name="Analyst"/>
+    </roles>
+</project>
